@@ -10,16 +10,21 @@
     <div class="wrapper">
       <h1>Expense Tracker</h1>
       <div class="inputs">
-        <legend>Category</legend>
-        <input id="category-input" type="text" />
-        <legend>Amount</legend>
-        <input id="amount-input" type="text" />
+        <div class="category-wrapper">
+          <legend>Category</legend>
+          <input id="category-input" type="text" />
+        </div>
+        <div class="amount-wrapper">
+          <legend>Amount</legend>
+          <input id="amount-input" type="number" />
+        </div>
       </div>
 
       <div class="buttons">
         <button id="income-btn">Add Income</button>
         <button id="expense-btn">Add Expense</button>
       </div>
+      <ul id="transaction-list"></ul>
     </div>
   </body>
   <script src="./script.js"></script>
