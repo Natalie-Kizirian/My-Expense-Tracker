@@ -3,9 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <title>My Expense Tracker</title>
   </head>
   <body>
-    <h1>Expense Tracker</h1>
+    <div class="wrapper">
+      <h1>Expense Tracker</h1>
+      <div class="inputs">
+        <legend>Category</legend>
+        <input id="category-input" type="text" />
+        <legend>Amount</legend>
+        <input id="amount-input" type="text" />
+      </div>
+
+      <div class="buttons">
+        <button id="income-btn">Add Income</button>
+        <button id="expense-btn">Add Expense</button>
+      </div>
+    </div>
   </body>
+  <script src="./script.js"></script>
 </html>

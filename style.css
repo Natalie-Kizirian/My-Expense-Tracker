@@ -1,0 +1,17 @@
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin: 2%;
+}
+.inputs {
+  justify-content: center;
+}
+.wrapper {
+  width: 50%;
+  margin: auto;
+  border: solid thin;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
